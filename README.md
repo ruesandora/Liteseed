@@ -7,7 +7,8 @@
 > Teşvikli mi? Evet ama detay yok kesin demiyorum discord duyuruda yazıyor - taktir sizindir.
 
 ## Kurulum:
-
+```console
+# güncelleme
 sudo apt update -y && sudo apt upgrade -y
 sudo apt install docker.io -y
 
@@ -29,4 +30,27 @@ docker run -v liteseed:/data edge start
 # bu komutla cüzdan adresimizi öğrenip test tokeni isteyelim
 docker run -v liteseed:/data edge balance
 # buradaki cüzdana hello@liteseed.xyz mail adresıne göndererek token isteylim.
+```
+
+> Buradan sonra token geldikten sonra devam edebilirsiniz.
+
+
+```console
+# Burada tırnakların içersinde bir github veya twitter bağlantını koy.
+docker run -v liteseed:/data edge stake -u "https://ruesandora.com"
+
+# bu seger bu komutu girdiğinizde token elinizde kalmayacak ve stake kısmı Yes olacaktır.
+docker run -v liteseed:/data edge balance
+
+# screen içersine girip durdurup tekrar başlatalım.
+screen -r liteseed
+docker run -v liteseed:/data edge start
+```
+
+<img width="832" alt="Ekran Resmi 2024-05-16 15 49 59" src="https://github.com/ruesandora/Liteseed/assets/101149671/f684c11b-6c78-46c9-927e-40904e9eedf4">
+
+> Böyle bir görsel node'unuzun doğru çalıştığını temsil eder.
+
+> Hayırlı olsun, proje adına büyük konuşmak için çok erken - beklentisiz ilerleyiniz.
+
 
