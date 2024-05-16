@@ -55,4 +55,9 @@ docker run -v liteseed:/data edge start
 
 > Hayırlı olsun, proje adına büyük konuşmak için çok erken - beklentisiz ilerleyiniz.
 
+```console
+cd /var/lib/docker/volumes/liteseed/_data
+cat signer.json
+# bu komut ile private keyinizi yedekleyebilirsiniz.
+```
 
