@@ -6,6 +6,8 @@
 
 > Teşvikli mi? Evet ama detay yok kesin demiyorum discord duyuruda yazıyor - taktir sizindir.
 
+> Kolay kurulum için mümkün mertebe kısa ve özet yazıyorum..
+
 ## Kurulum:
 ```console
 # güncelleme
